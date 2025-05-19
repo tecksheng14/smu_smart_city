@@ -27,6 +27,7 @@ Query: {query}
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 Answer: """
     
-    test = "this does nothing at all, testing testing testing, one more time, once, twice TELL ME THE DIFFERENCE"
+    test = "this does nothing at all, testing testing testing, one more time, once, twice TELL ME THE DIFFERENCE, TELL ME THE DIFFERENCE again"
+    print("TESTING")
     
     return prompt
